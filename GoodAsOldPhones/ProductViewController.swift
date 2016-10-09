@@ -20,4 +20,7 @@ class ProductViewController: UIViewController {
         productImageView.image = UIImage (named: "1937DeskPhone")
     }
 
+    @IBAction func addToCartPressed(_ sender: AnyObject) {
+        print("button tapped")
+    }
 }

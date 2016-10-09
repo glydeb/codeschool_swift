@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B87277581DA74C10007EB84D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87277571DA74C10007EB84D /* AppDelegate.swift */; };
-		B872775A1DA74C10007EB84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87277591DA74C10007EB84D /* ViewController.swift */; };
 		B872775D1DA74C10007EB84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B872775B1DA74C10007EB84D /* Main.storyboard */; };
 		B872775F1DA74C10007EB84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B872775E1DA74C10007EB84D /* Assets.xcassets */; };
 		B87277621DA74C10007EB84D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87277601DA74C10007EB84D /* LaunchScreen.storyboard */; };
 		B872776D1DA74C11007EB84D /* GoodAsOldPhonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872776C1DA74C11007EB84D /* GoodAsOldPhonesTests.swift */; };
+		B87402A11DA9D94E00092437 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87402A01DA9D94E00092437 /* ProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		B87277541DA74C10007EB84D /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87277571DA74C10007EB84D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B87277591DA74C10007EB84D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B872775C1DA74C10007EB84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B872775E1DA74C10007EB84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B87277611DA74C10007EB84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		B87277681DA74C11007EB84D /* GoodAsOldPhonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodAsOldPhonesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B872776C1DA74C11007EB84D /* GoodAsOldPhonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAsOldPhonesTests.swift; sourceTree = "<group>"; };
 		B872776E1DA74C11007EB84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87402A01DA9D94E00092437 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				B87277571DA74C10007EB84D /* AppDelegate.swift */,
-				B87277591DA74C10007EB84D /* ViewController.swift */,
 				B872775B1DA74C10007EB84D /* Main.storyboard */,
 				B872775E1DA74C10007EB84D /* Assets.xcassets */,
 				B87277601DA74C10007EB84D /* LaunchScreen.storyboard */,
 				B87277631DA74C10007EB84D /* Info.plist */,
+				B87402A01DA9D94E00092437 /* ProductViewController.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B872775A1DA74C10007EB84D /* ViewController.swift in Sources */,
+				B87402A11DA9D94E00092437 /* ProductViewController.swift in Sources */,
 				B87277581DA74C10007EB84D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +404,7 @@
 				B87277731DA74C11007EB84D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B87277741DA74C11007EB84D /* Build configuration list for PBXNativeTarget "GoodAsOldPhonesTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +413,7 @@
 				B87277761DA74C11007EB84D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

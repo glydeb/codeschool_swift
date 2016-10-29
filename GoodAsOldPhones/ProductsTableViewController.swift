@@ -65,7 +65,7 @@ class ProductsTableViewController: UITableViewController {
         if segue.identifier == "ShowProduct" {
             let productVC = segue.destination as? ProductViewController
             
-            // get the cell that was tappeed and store it in indexPath
+            // get the cell that was tapped and store it in indexPath
             guard let cell = sender as? UITableViewCell,
                   let indexPath = tableView.indexPath(for: cell) else {
                 return

@@ -16,6 +16,9 @@
 		B87402A31DAAF88B00092437 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87402A21DAAF88B00092437 /* ContactViewController.swift */; };
 		B87402A51DAC8B3600092437 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87402A41DAC8B3600092437 /* ProductsTableViewController.swift */; };
 		B87402A71DB299FF00092437 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87402A61DB299FF00092437 /* Product.swift */; };
+		B8F855421DC6EBE2002EB8ED /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F855411DC6EBE2002EB8ED /* CartTableViewController.swift */; };
+		B8F855441DC6EFDD002EB8ED /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F855431DC6EFDD002EB8ED /* Order.swift */; };
+		B8F855461DC6EFE6002EB8ED /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F855451DC6EFE6002EB8ED /* Orders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		B87402A21DAAF88B00092437 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		B87402A41DAC8B3600092437 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		B87402A61DB299FF00092437 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B8F855411DC6EBE2002EB8ED /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		B8F855431DC6EFDD002EB8ED /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B8F855451DC6EFE6002EB8ED /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 				B87277601DA74C10007EB84D /* LaunchScreen.storyboard */,
 				B87277631DA74C10007EB84D /* Info.plist */,
 				B87402A01DA9D94E00092437 /* ProductViewController.swift */,
+				B8F855411DC6EBE2002EB8ED /* CartTableViewController.swift */,
+				B8F855431DC6EFDD002EB8ED /* Order.swift */,
+				B8F855451DC6EFE6002EB8ED /* Orders.swift */,
 				B87402A21DAAF88B00092437 /* ContactViewController.swift */,
 				B87402A41DAC8B3600092437 /* ProductsTableViewController.swift */,
 				B87402A61DB299FF00092437 /* Product.swift */,
@@ -209,10 +218,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87402A11DA9D94E00092437 /* ProductViewController.swift in Sources */,
+				B8F855421DC6EBE2002EB8ED /* CartTableViewController.swift in Sources */,
 				B87402A51DAC8B3600092437 /* ProductsTableViewController.swift in Sources */,
 				B87402A71DB299FF00092437 /* Product.swift in Sources */,
 				B87277581DA74C10007EB84D /* AppDelegate.swift in Sources */,
 				B87402A31DAAF88B00092437 /* ContactViewController.swift in Sources */,
+				B8F855461DC6EFE6002EB8ED /* Orders.swift in Sources */,
+				B8F855441DC6EFDD002EB8ED /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

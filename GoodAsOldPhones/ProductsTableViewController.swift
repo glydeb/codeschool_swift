@@ -35,6 +35,12 @@ class ProductsTableViewController: UITableViewController {
         product3.cellImage = "image-cell3"
         product4.cellImage = "image-cell4"
         
+        product1.price = 299.99
+        product2.price = 149.99
+        product3.price = 89.99
+        product4.price = 22.99
+        
+        
         products = [product1, product2, product3, product4]
         
     }
